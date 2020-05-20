@@ -24,7 +24,7 @@ root = Tk()
 root.geometry("800x600")
 menu_am = Menu(root)
 root.config(menu = menu_am)
-root.title("GUI")
+root.title("GUI window")
 
 
 #File Menu
@@ -43,7 +43,7 @@ file_menu.add_cascade(label = "Exit")
 
 
 
-#EDit Menu
+#Edit Menu
 
 edit_menu = Menu(menu_am)
 
@@ -68,13 +68,6 @@ tools_menu = Menu(menu_am)
 #menu label
 menu_am.add_cascade(label = "Tools",menu = tools_menu)
 
-
-#search Menu
-
-search_menu = Menu(menu_am)
-
-#menu label
-menu_am.add_cascade(label = "Search",menu = search_menu)
 
 
 
