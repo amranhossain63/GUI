@@ -50,7 +50,12 @@ edit_menu = Menu(menu_am)
 #menu label
 menu_am.add_cascade(label = "Edit",menu = edit_menu)
 
-
+edit_menu.add_cascade(label = "Undo")
+edit_menu.add_cascade(label = "Redo")
+edit_menu.add_cascade(label ="Copy")
+edit_menu.add_cascade(label ="Cut")
+edit_menu.add_cascade(label ="Paste")
+edit_menu.add_cascade(label = "Select all")
 
 #search Menu
 
