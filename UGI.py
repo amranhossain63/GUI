@@ -34,6 +34,8 @@ file_menu = Menu(menu_am)
 #Add label
 menu_am.add_cascade(label = "File",menu = file_menu)
 
+# Submenu
+
 file_menu.add_cascade(label = "New File")
 file_menu.add_cascade(label = "Save")
 file_menu.add_cascade(label ="Save As")
