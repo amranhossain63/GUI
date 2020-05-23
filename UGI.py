@@ -74,12 +74,10 @@ tools_menu = Menu(menu_am)
 menu_am.add_cascade(label = "Tools",menu = tools_menu)
 
 
-tools_menu.add_cascade(label = "New File")
-tools_menu.add_cascade(label = "Save")
-tools_menu.add_cascade(label ="Save As")
-tools_menu.add_cascade(label ="Save All")
-tools_menu.add_cascade(label ="print")
-tools_menu.add_cascade(label = "Exit")
+tools_menu.add_cascade(label = "Referance")
+tools_menu.add_cascade(label = "Install")
+tools_menu.add_cascade(label ="Update")
+tools_menu.add_cascade(label ="Account")
 
 #View Menu
 
@@ -88,13 +86,11 @@ view_menu = Menu(menu_am)
 #menu label
 menu_am.add_cascade(label = "View",menu = view_menu)
 
-view_menu.add_cascade(label = "New File")
-view_menu.add_cascade(label = "Save")
-view_menu.add_cascade(label ="Save As")
-view_menu.add_cascade(label ="Save All")
-view_menu.add_cascade(label ="print")
-view_menu.add_cascade(label = "Exit")
-#Help Menu
+view_menu.add_cascade(label = "Toolbar")
+view_menu.add_cascade(label = "Hide Toolbar")
+view_menu.add_cascade(label ="User Layouts")
+view_menu.add_cascade(label ="Window Layout")
+
 
 help_menu = Menu(menu_am)
 
@@ -102,11 +98,10 @@ help_menu = Menu(menu_am)
 menu_am.add_cascade(label = "Help",menu = help_menu)
 
 
-help_menu.add_cascade(label = "New File")
-help_menu.add_cascade(label = "Save")
-help_menu.add_cascade(label ="Save As")
-help_menu.add_cascade(label ="Save All")
-help_menu.add_cascade(label ="print")
-help_menu.add_cascade(label = "Exit")
+help_menu.add_cascade(label = "Documentation")
+help_menu.add_cascade(label = "Tutarial")
+help_menu.add_cascade(label ="Report")
+help_menu.add_cascade(label ="About")
+
 
 root.mainloop()
